@@ -8146,7 +8146,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &634215412
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15734,16 +15734,16 @@ Camera:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 634215413}
+  - {fileID: 1816290097}
+  - {fileID: 597143622}
+  - {fileID: 86790914}
   - {fileID: 66384370}
   - {fileID: 1144740908}
   - {fileID: 1216016704}
-  - {fileID: 634215413}
   - {fileID: 994505077}
   - {fileID: 2020205038}
   - {fileID: 1017954823}
-  - {fileID: 597143622}
   - {fileID: 1546906611}
   - {fileID: 997195211}
   - {fileID: 11789032}
-  - {fileID: 1816290097}
-  - {fileID: 86790914}
