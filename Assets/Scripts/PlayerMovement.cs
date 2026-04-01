@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
 
     Rigidbody2D rb;
 
+    [SerializeField] private AudioSource jumpSoundEffect;
 
     // Start is called before the first frame update
     void Start()
@@ -36,6 +37,7 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpPower);
             isJumping = true;
+            jumpSoundEffect.Play();
         }
 
 
