@@ -10,14 +10,14 @@ public class EnemyAI : MonoBehaviour
 
     [SerializeField] private float speed = 2f;
 
-    //private Animator anim;
+    private Animator anim;
 
-    /*
+    
     void Start()
     {
         anim = GetComponent<Animator>();
     }
-    */
+    
 
     private void Update()
     {
