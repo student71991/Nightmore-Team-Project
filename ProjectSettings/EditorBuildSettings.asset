@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ThankYouForPlayingMenu.unity
     guid: ef5e10dceb974d643b7ed43d46efd0b7
+  - enabled: 1
+    path: Assets/Scenes/SecretLevel1.unity
+    guid: 0ed4e4aecfa590a4da801e9ad67daea2
+  - enabled: 1
+    path: Assets/Scenes/SecretLevel2.unity
+    guid: b6f7824f33455fc42baf4b03950a9ded
   m_configObjects: {}
