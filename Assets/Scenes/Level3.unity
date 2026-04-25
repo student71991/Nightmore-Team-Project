@@ -1924,7 +1924,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f1e89c47c13e16459841a88c83b8fef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: 
+  sceneToLoad: SecretLevel2
   endSoundEffect: {fileID: 0}
 --- !u!212 &51421802
 SpriteRenderer:

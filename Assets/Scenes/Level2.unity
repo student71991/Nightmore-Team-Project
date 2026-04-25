@@ -22335,7 +22335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f1e89c47c13e16459841a88c83b8fef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: 
+  sceneToLoad: SecretLevel1
   endSoundEffect: {fileID: 0}
 --- !u!212 &885169273
 SpriteRenderer:
@@ -56878,6 +56878,7 @@ SceneRoots:
   - {fileID: 626665906}
   - {fileID: 1261437342}
   - {fileID: 205943220}
+  - {fileID: 885169274}
   - {fileID: 244770230}
   - {fileID: 821869342}
   - {fileID: 366868722}
@@ -56891,4 +56892,3 @@ SceneRoots:
   - {fileID: 1366708728}
   - {fileID: 2088044587}
   - {fileID: 71175369}
-  - {fileID: 885169274}
