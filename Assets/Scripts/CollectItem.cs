@@ -8,6 +8,8 @@ public class CollectItem : MonoBehaviour
 
     private int collectibles = 0;
 
+    //[SerializeField] private Text collectiblesText;
+
     [SerializeField] private AudioSource collectSoundEffect;
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -17,6 +19,9 @@ public class CollectItem : MonoBehaviour
             collectSoundEffect.Play();
             Destroy(collision.gameObject);
             collectibles++;
+
+            //collectiblesext.text = "Collectibles: " + collectibles;
+
         }
     }
 
