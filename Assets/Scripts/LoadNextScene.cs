@@ -8,11 +8,8 @@ public class LoadNextScene : MonoBehaviour
 
     public string sceneToLoad;
 
-    [SerializeField] private AudioSource endSoundEffect;
-
     private void OnTriggerEnter2D(Collider2D other)
     {
-        endSoundEffect.Play();
         SceneManager.LoadScene(sceneToLoad);
     }
 

@@ -6,8 +6,6 @@ using UnityEngine.SceneManagement;
 public class PlayerDeath : MonoBehaviour
 {
 
-    [SerializeField] private AudioSource deathSoundEffect;
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Enemy"))
@@ -17,7 +15,6 @@ public class PlayerDeath : MonoBehaviour
     }
     private void RestartLevel()
     {
-        deathSoundEffect.Play();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
