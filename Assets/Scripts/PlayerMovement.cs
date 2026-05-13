@@ -12,7 +12,6 @@ public class PlayerMovement : MonoBehaviour
     bool isJumping = false;
 
     private Animator anim;
-
     Rigidbody2D rb;
 
     [SerializeField] private AudioSource jumpSoundEffect;
@@ -21,9 +20,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-
         anim = GetComponent<Animator>();
-
     }
 
     // Update is called once per frame
@@ -40,7 +37,6 @@ public class PlayerMovement : MonoBehaviour
             jumpSoundEffect.Play();
         }
 
-
         if (horizontalInput > 0f)
         {
             anim.SetBool("Running", true);
@@ -55,8 +51,6 @@ public class PlayerMovement : MonoBehaviour
         {
             anim.SetBool("Running", false);
         }
-
-
     }
 
     private void FixedUpdate()
@@ -79,6 +73,5 @@ public class PlayerMovement : MonoBehaviour
     {
         isJumping = false;
     }
-
 
 }

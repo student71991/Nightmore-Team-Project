@@ -13,6 +13,7 @@ public class PlayerDeath : MonoBehaviour
             RestartLevel();
         }
     }
+
     private void RestartLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
